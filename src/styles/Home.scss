@@ -1,0 +1,102 @@
+.hero-section {
+  .title {
+    margin-top: 20vh;
+    line-height: 1.3;
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 4rem;
+    span {
+      color: #fff;
+      padding: 0px 45px;
+      &.blue-paint-brush-stroke {
+        background: url("../assets/images/blue-paint-brush-stroke-vector.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 48rem;
+      }
+    }
+  }
+  .tagline {
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .college-name {
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .scroll {
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+}
+
+.mail-signup-banner {
+  background-color: var(--primary-color);
+  padding: 50px 1.5px;
+  vertical-align: middle;
+  .banner-text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+  .join-btn {
+    background-color: #fff;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+.sponsors-container {
+  h1 {
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  .slick-slider {
+    margin-bottom: 1rem;
+    .slick-slide {
+      .sponsor-logo {
+        width: fit-content;
+        height: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    .title {
+      font-size: 2.5rem;
+      span {
+        font-size: 1.5rem;
+        padding: 0px 35px;
+        &.blue-paint-brush-stroke {
+          background-size: 20rem;
+        }
+      }
+    }
+    .tagline {
+      font-size: 1.25rem;
+    }
+    .college-name {
+      font-size: 1.25rem;
+    }
+    .scroll {
+      font-size: 1.5rem;
+    }
+  }
+  .slick-slider {
+    .slick-slide {
+      .sponser-logo {
+        height: 50px !important;
+      }
+    }
+  }
+}

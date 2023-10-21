@@ -1,0 +1,30 @@
+.profile-card {
+  border: 3px solid var(--bg-primary-color);
+  box-shadow: 0 4px 32px var(--bg-primary-color);
+  .profile-image {
+    margin-top: 10px;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .profile-social-media {
+    ul {
+      li {
+        a {
+          font-size: 2rem;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+  &:hover {
+    background-color: var(--bg-primary-color);
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+}

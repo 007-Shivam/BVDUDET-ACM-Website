@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Kamran Khan",
+        "role": "Technical Head",
+        "image": "https://avatars.githubusercontent.com/u/72748315?v=4",
+        "twitter": "https://twitter.com/kamran1819g",
+        "linkedin": "https://www.linkedin.com/in/kamran1819g/",
+        "github": "https://github.com/kamran1819g",
+        "portfolio": "https://kamran1819g.vercel.app/"
+
+    },
+    {
+        "name": "Vashanavi Gothankar",
+        "role": "Technical Lead",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Shreyas Lawand",
+        "role": "Technical Lead",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Prashant Dubey",
+        "role": "Technical Lead",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Varun Potty",
+        "role": "Technical Lead",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    }
+]

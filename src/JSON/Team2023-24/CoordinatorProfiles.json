@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Sakshi Jadhav",
+        "role": "Chairperson",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Gaurav Desali",
+        "role": "Vice Chairperson",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Varshita Nalluri",
+        "role": "ACM-W Chairperson",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Nishta Yadhav",
+        "role": "ACM-W Vice Chairperson",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name":"Fahim Khan",
+        "role":"Secretary",
+        "image":"https://via.placeholder.com/350",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "portfolio":""
+    },
+    {
+        "name": "Shubham Sontakke",
+        "role": "Treasurer",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Aviral Dev",
+        "role": "Vice Treasurer",
+        "image": "https://via.placeholder.com/350",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    }
+]

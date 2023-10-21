@@ -1,0 +1,109 @@
+.about-acm,
+.about-bvdudet-acm {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  .about-acm-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  .about-acm-logo-container,
+  .about-bvdudet-acm-logo-container {
+    background-color: var(--bg-secondary-color);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      scale: 0.95;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  .about-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  .about-content {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-secondary-color);
+  }
+}
+
+.contact-us {
+  h1 {
+    font-family: "Syne";
+    text-decoration: underline var(--primary-color);
+  }
+  h2 {
+    font-family: "Syne";
+  }
+  .contact-us-email {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    &:hover {
+      text-decoration: underline var(--primary-color);
+    }
+  }
+  .contact-us-location {
+    height: 300px;
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .sponsorship-contact {
+    .name {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+    .desgination {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--text-secondary-color);
+    }
+  }
+  .socials {
+    li {
+      padding-inline: 1rem;
+      a {
+        font-size: 3rem;
+        color: var(--bg-secondary-color);
+        &:hover {
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-acm {
+    flex-direction: column;
+    .about-acm-logo-container {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 200px;
+    }
+  }
+  .contact-us {
+    .contact-us-location {
+      height: 200px;
+    }
+    .sponsorship-contact {
+      .name {
+        font-size: 1rem;
+      }
+      .desgination {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

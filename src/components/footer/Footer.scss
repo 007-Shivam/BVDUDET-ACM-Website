@@ -1,0 +1,32 @@
+.footer-container {
+  padding: 35px;
+  background-color: var(--bg-secondary-color);
+  border-radius: 12px;
+  h3 {
+    color: var(--text-primary-color);
+  }
+  .quick-links {
+    ul {
+      li {
+        a {
+          color: var(--text-primary-color);
+          text-decoration: none;
+          &:hover {
+            color: var(--text-primary-color);
+          }
+        }
+      }
+    }
+  }
+  .follow-us {
+    ul {
+      li {
+        margin: 0px 10px;
+        a {
+          font-size: 35px;
+          color: var(--text-primary-color);
+        }
+      }
+    }
+  }
+}

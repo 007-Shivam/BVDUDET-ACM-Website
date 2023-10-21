@@ -1,0 +1,20 @@
+.open-source{
+    .card{
+        padding: 25px;
+        text-decoration: none;
+        .card-title{
+            font-family: "Fredoka";
+            font-weight: 500;
+            font-size: 5vh;
+        }
+        .card-text{
+            font-family: "Fredoka";
+            font-weight: 300;
+            color: var(--primary-color);
+        }
+        &:hover{
+            text-decoration: underline;
+            text-decoration-color: var(--primary-color);
+        }
+    }
+}
