@@ -2,18 +2,80 @@
     {
         "name": "Khushi Raj",
         "role": "Organizational Head",
-        "image": "https://via.placeholder.com/350",
-        "twitter": "",
-        "linkedin": "",
-        "github": "",
+        "image": "https://i.imgur.com/lKqkCMX.jpg",
+        "linkedin": "https://www.linkedin.com/in/khushi-raj-091264241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/khushiiraj?tab=repositories",
         "portfolio": ""
     },
     {
         "name": "Disha Jain",
         "role": "Overall Event Co-ordinator",
-        "image": "https://via.placeholder.com/350",
-        "twitter": "",
+        "image": "https://i.imgur.com/zevlpB7.jpg",
+        "linkedin": "www.linkedin.com/in/disha-jain-821a96246",
+        "github": "https://github.com/Dishajain0403",
+        "portfolio": ""
+    },
+    {
+        "name": "Ayushi Gorantyal",
+        "role": "Organizational Lead",
+        "image": "https://i.imgur.com/xQK55cC.jpg",
+        "linkedin": "https://www.linkedin.com/in/ayushi-gorantyal-575a13229/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Rishit Srivastava",
+        "role": "Organizational Lead",
+        "image": "https://i.imgur.com/caaKjAi.jpg",
+        "linkedin": "https://www.linkedin.com/in/rishit-srivastava-a5287124b/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Ujjwal Singh",
+        "role": "Organizational Lead",
+        "image": "https://i.imgur.com/uYrE2ZL.jpg",
         "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Saanjali Kapse",
+        "role": "Overall Event Co-ordinator Lead",
+        "image": "https://i.imgur.com/Eogrm67.jpg",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Smit Deepak More",
+        "role": "Overall Event Co-ordinator Lead",
+        "image": "https://i.imgur.com/fMrLv2G.jpg",
+        "linkedin": "https://www.linkedin.com/in/smit-more-4a8a07245/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Suleman Shaikh",
+        "role": "Overall Event Co-ordinator Lead",
+        "image": "https://i.imgur.com/9AR5zEg.jpg",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Mahesh Jadhav",
+        "role": "Overall Event Co-ordinator Lead",
+        "image": "https://i.imgur.com/UeyWCvM.jpg",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Sanskruti Thorat",
+        "role": "Overall Event Co-ordinator Lead",
+        "image": "https://i.imgur.com/ranQvPE.jpg",
+        "linkedin": "https://www.linkedin.com/in/sanskruti-thorat-b80646238/",
         "github": "",
         "portfolio": ""
     }

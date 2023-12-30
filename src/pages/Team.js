@@ -65,7 +65,7 @@ function Team() {
         >
           <Tab eventKey="2023-24" title="2023-24">
             <Tabs
-              defaultActiveKey="Technical Team"
+              defaultActiveKey="Faculty"
               className="justify-content-center"
             >
               <Tab eventKey="Faculty" title="Faculty">

@@ -2,19 +2,96 @@
   {
     "name": "Kashish Durgapal",
     "role": "Publicity Head",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
+    "image": "https://i.imgur.com/dUHYNVI.jpg",
+    "linkedin": "https://www.linkedin.com/in/kashish-durgapal-8277b1296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "github": "https://github.com/Kashish-2205",
     "portfolio": ""
   },
   {
     "name": "Sudhanshu Mishra",
     "role": "Membership Head",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
+    "image": "https://i.imgur.com/iQeEvgM.jpg",
+    "linkedin": "https://www.linkedin.com/in/sudhanshu-mishra-749a2126b",
+    "github": "https://github.com/Sudhanshu-m"
+  },
+  {
+    "name": "Kathika Yashovardhan",
+    "role": "Photography Head",
+    "image": "https://i.imgur.com/uamo3GA.jpg",
+    "linkedin": "https://www.linkedin.com/in/yasho-kathika-a4ab54220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    "name": "Shreya Singh",
+    "role": "Publicity Lead",
+    "image": "https://i.imgur.com/Elp06xH.jpg",
     "linkedin": "",
     "github": "",
     "portfolio": ""
+  },
+  {
+    "name": "Ali Khan",
+    "role": "Publicity Lead",
+    "image": "https://i.imgur.com/nRUqSPa.jpg",
+    "linkedin": "https://www.linkedin.com/in/ali-khan-172b041b5/",
+    "github": "",
+    "portfolio": ""
+  },
+  {
+    "name": "Ankita Haldar",
+    "role": "Publicity Lead",
+    "image": "https://i.imgur.com/Jp1R99j.jpg",
+    "linkedin": "https://www.linkedin.com/in/ankita-haldar-a106b3282/",
+    "github": "",
+    "portfolio": ""
+  },
+  {
+    "name": "Manas Yuvraj Bamne",
+    "role": "Membership Lead",
+    "image": "https://i.imgur.com/ZxFfCsg.jpg",
+    "linkedin": "https://www.linkedin.com/in/manas-bamne-96b67b241/",
+    "github": "",
+    "portfolio": ""
+  },
+  {
+    "name": "Divyanka Rai",
+    "role": "Membership Lead",
+    "image": "https://i.imgur.com/oxeE5Ej.jpg",
+    "linkedin": "",
+    "github": "",
+    "portfolio": ""
+  },
+  {
+    "name": "Astha Sinha",
+    "role": "Membership Lead",
+    "image": "https://i.imgur.com/6JvseOy.jpg",
+    "linkedin": "https://www.linkedin.com/in/astha-sinha-4b459027a/",
+    "github": "",
+    "portfolio": ""
+  },
+  {
+    "name": "Anushka Ahana Luke",
+    "role": "Membership Lead",
+    "image": "https://i.imgur.com/vSPEK9p.jpg",
+    "linkedin": "",
+    "github": "",
+    "portfolio": ""
+  },
+  {
+    "name": "Arib Qureshi",
+    "role": "Membership Lead",
+    "image": "https://i.imgur.com/2OKaKEs.jpg",
+    "linkedin": "",
+    "github": "",
+    "portfolio": ""
+  },
+  {
+    "name": "Riya Chaudhary",
+    "role": "Photography Lead",
+    "image": "https://i.imgur.com/Eogrm67.jpg"
+  },
+  {
+    "name": "Shubham Gaikwad",
+    "role": "Photography Lead",
+    "image": "https://i.imgur.com/f5UxfUO.jpg"
   }
 ]

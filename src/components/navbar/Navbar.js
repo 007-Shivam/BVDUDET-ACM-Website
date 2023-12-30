@@ -11,6 +11,10 @@ function NavbarComponent() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const handleNewsletter = () => {
+    window.open('https://www.google.com/', '_blank');
+  };
   return (
     <>
       <Navbar collapseOnSelect expand="lg">
@@ -43,9 +47,14 @@ function NavbarComponent() {
                 </NavLink>
               </NavDropdown>
             </Nav>
-            <Nav className="ms-auto">
+            <Nav className="btn-lnk">
               <NavLink onClick={handleShow} className="nav-link join-button">
                 Join Us
+              </NavLink>
+            </Nav>
+            <Nav className="btn-lnk">
+              <NavLink onClick={handleNewsletter} className="nav-link join-button">
+                Newsletter
               </NavLink>
             </Nav>
           </Navbar.Collapse>
