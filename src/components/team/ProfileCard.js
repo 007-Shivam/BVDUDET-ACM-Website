@@ -3,7 +3,6 @@ import "./ProfileCard.scss";
 import { Card, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faXTwitter,
   faLinkedin,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
