@@ -2,18 +2,64 @@
     {
         "name": "Shivam Bhosle",
         "role": "Web Master",
-        "image": "https://via.placeholder.com/350",
-        "twitter": "",
-        "linkedin": "",
-        "github": "",
-        "portfolio": ""
+        "image": "https://i.imgur.com/oo09Aic.jpg",
+        "linkedin": "https://www.linkedin.com/in/shivambhosle007/",
+        "github": "https://github.com/007-Shivam",
+        "portfolio": "https://shivambhosle.vercel.app/"
     },
     {
         "name": "Shubham Kumavat",
         "role": "Web Coordinater",
-        "image": "https://via.placeholder.com/350",
-        "twitter": "",
+        "image": "https://i.imgur.com/7A75HE3.jpg",
+        "linkedin": "https://www.linkedin.com/in/shubham-kumavat-39b251296/",
+        "github": "https://github.com/Shubham-711",
+        "portfolio": ""
+    },
+    {
+        "name": "Ayushi Singh",
+        "role": "Web Lead",
+        "image": "https://i.imgur.com/hJvRw5V.jpg",
+        "linkedin": "https://www.linkedin.com/in/ayushi-singh-a47100230/",
+        "github": "https://github.com/ayushisingh65",
+        "portfolio": ""
+    },
+    {
+        "name": "Pratik Parhi",
+        "role": "Web Lead",
+        "image": "https://i.imgur.com/AbKhu36.jpg",
+        "linkedin": "https://www.linkedin.com/in/pratik-parhi-b1aa83287/",
+        "github": "https://github.com/Pratik4YT",
+        "portfolio": ""
+    },
+    {
+        "name": "Aryan Rane",
+        "role": "Web Lead",
+        "image": "https://i.imgur.com/5LZtVIS.jpg",
         "linkedin": "",
+        "github": "https://github.com/Artechie0806",
+        "portfolio": ""
+    },
+    {
+        "name": "Kevin Raj",
+        "role": "Web Lead",
+        "image": "https://i.imgur.com/hFSiy7u.jpg",
+        "linkedin": "",
+        "github": "https://github.com/KevinRaj2005",
+        "portfolio": ""
+    },
+    {
+        "name": "Padmaja Rokade",
+        "role": "Web Coordinater Lead",
+        "image": "https://i.imgur.com/ohFnV0X.jpg",
+        "linkedin": "https://www.linkedin.com/in/padmaja-rokade-480740280/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Nimesh Chaudhari",
+        "role": "Web Coordinater Lead",
+        "image": "https://i.imgur.com/QDXPmbL.jpg",
+        "linkedin": "https://www.linkedin.com/in/nimesh-chaudhari-3b64bb251/",
         "github": "",
         "portfolio": ""
     }

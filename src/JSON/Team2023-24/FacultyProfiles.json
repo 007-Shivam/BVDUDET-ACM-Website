@@ -1,74 +1,50 @@
 [
   {
-    "name": "Dr. Kamal K Mehta",
-    "role": "Faculty Mentor",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
-  },
-  {
     "name": "Prof. Dhawniket Kamble",
     "role": "Faculty Sponsorer",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
+    "image": "https://i.imgur.com/xcnsEvP.jpg",
+    "linkedin": "https://www.linkedin.com/in/dhwaniket-kamble-71a033162/"
+  },
+  {
+    "name": "Dr. Kamal K Mehta",
+    "role": "Faculty Mentor",
+    "image": "https://i.imgur.com/fGb95Np.jpg",
+    "linkedin": "https://www.linkedin.com/in/kamal-mehta-1332001a5/"
   },
   {
     "name": "Prof. Poonam V Kapse",
-    "role": "Overall, Main Coordinator",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
+    "role": "President",
+    "image": "https://i.imgur.com/Ihc3BSJ.jpg",
+    "linkedin": "https://www.linkedin.com/in/poonam-kapse-25aa3123b/"
   },
   {
     "name": "Prof. Diksha M Bhalerao",
-    "role": "Overall, Vice Coordinator",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
+    "role": "Vice President",
+    "image": "https://i.imgur.com/ELKeUT3.jpg",
+    "linkedin": "https://www.linkedin.com/in/diksha-bhalerao-25aa3123b/"
   },
   {
     "name": "Prof. Santosh B Rathod",
     "role": "Website Coordinator",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
+    "image": "https://i.imgur.com/RsQsfCW.jpg",
+    "linkedin": "https://www.linkedin.com/in/santosh-rathod-a0063a253/"
   },
   {
-    "name": "Prof. Dipika Sharma",
+    "name": "Prof. Deepika Sharma",
     "role": "Website Coordinator",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
+    "image": "https://i.imgur.com/JFHGfbg.jpg",
+    "linkedin": "https://www.linkedin.com/in/deepika-sharma-11081990/"
   },
   {
     "name": "Prof. Sumita Kumar",
     "role": "Newsletter Coordinator",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
+    "image": "https://i.imgur.com/coNm1jv.jpg",
+    "linkedin": "https://www.linkedin.com/in/sumita-kumar-509236150/"
   },
   {
     "name": "Prof. Snehal Lohi",
     "role": "Newsletter Coordinator",
-    "image": "https://via.placeholder.com/350",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
+    "image": "https://i.imgur.com/vyGGC3H.jpg",
+    "linkedin": "https://www.linkedin.com/in/snehal-lohi-bode-81476019b/"
   }
 ]

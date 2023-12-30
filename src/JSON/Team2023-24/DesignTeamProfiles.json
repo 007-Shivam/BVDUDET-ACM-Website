@@ -2,19 +2,72 @@
     {
         "name": "Southi Samantha",
         "role": "Graphic Master",
-        "image": "https://via.placeholder.com/350",
-        "twitter":"",
-        "linkedin":"",
-        "github":"",
-        "portfolio":""
+        "image": "https://i.imgur.com/lUVV0cc.png",
+        "linkedin": "https://www.linkedin.com/in/souti-samanta-696807291/",
+        "github": "https://github.com/Souti717"
     },
     {
-        "name": " Saloni Wani",
+        "name": "Saloni Wani",
         "role": "Creativity Head",
+        "image": "https://i.imgur.com/ZZBPFaX.png",
+        "linkedin": "https://www.linkedin.com/in/saloni-wani-8a8165296",
+        "github": "https://github.com/2003saloni",
+        "portfolio": ""
+    },
+    {
+        "name": "Prajakta Bangale",
+        "role": "Graphic Lead",
+        "image": "https://i.imgur.com/lpC41hS.jpg",
+        "linkedin": "https://www.linkedin.com/in/prajakta-bangale-63b7b523a/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Harsh Chavan",
+        "role": "Graphic Lead",
+        "image": "https://i.imgur.com/az2YwYQ.jpg",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Audumbar Salvi",
+        "role": "Graphic Lead",
         "image": "https://via.placeholder.com/350",
-        "twitter":"",
-        "linkedin":"",
-        "github":"",
-        "portfolio":""
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Adityaa Negi",
+        "role": "Graphic Lead",
+        "image": "https://via.placeholder.com/350",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Mitali Chaudhari",
+        "role": "Creativity Lead",
+        "image": "https://i.imgur.com/y3Lzc4X.jpg",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Ritu Sharma",
+        "role": "Creativity Lead",
+        "image": "https://i.imgur.com/abnzsTA.jpg",
+        "linkedin": "https://www.linkedin.com/in/ritu-sharma-b55a02287/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Mahesh Golam",
+        "role": "Creativity Lead",
+        "image": "https://i.imgur.com/2MCS60W.jpg",
+        "linkedin": "https://www.linkedin.com/in/mahesh-golam-734aa223b/",
+        "github": "",
+        "portfolio": ""
     }
 ]
