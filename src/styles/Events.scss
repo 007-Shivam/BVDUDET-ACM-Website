@@ -1,0 +1,68 @@
+
+.gal-container{
+    width: 95%;
+    min-height: 100vh;
+    position: relative;
+    margin: 0 auto;
+  }
+
+.gal-container .media-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin: 20px auto;
+}
+
+.gal-container .media-container .media{
+height: 220px;
+width: 100%;
+border: 5px solid #000;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+overflow: hidden;
+cursor: pointer;
+}
+
+.gal-container .media-container .media :is(video, img){
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s linear; 
+}
+
+.gal-container .media-container .media:hover :is(video, img){
+    transform: scale(1.1);
+}
+
+.gal-container .popup-media{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.gal-container .popup-media :is(video, img){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+    border: 3px solid #000;
+}
+
+.gal-container .popup-media span{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 50px;
+    font-weight: bolder; 
+    z-index: 100;
+    cursor: pointer;
+    color: #000;
+    user-select: none;
+    }
