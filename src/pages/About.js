@@ -72,7 +72,7 @@ function About() {
             </a>
           </Col>
           <Col md={5} className="about-bvdudet-acm-logo-container">
-            <img src={BVDUDETACMLogo} alt="BVDUDET ACM Logo" />
+            <img className="about-logo" src={BVDUDETACMLogo} alt="BVDUDET ACM Logo" />
           </Col>
         </Row>
         <hr className="mt-5 mb-5" />

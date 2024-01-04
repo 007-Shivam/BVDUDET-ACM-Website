@@ -79,6 +79,13 @@ function Home() {
       link: "",
     },
   ];
+
+  const handleScrollDown = () => {
+    window.scrollBy({
+      top: window.innerHeight * 1.25,
+      behavior: 'smooth',
+    });
+  };
   return (
     <>
       <Container className="hero-section h-100vh">
@@ -118,7 +125,7 @@ function Home() {
         </Row>
         <Row className="justify-content-center mt-3">
           <Col lg={10} className="text-center">
-            <HashLink to="/#footer" className="scroll">
+            <HashLink to="/#footer" className="scroll" onClick={handleScrollDown}>
               <FontAwesomeIcon icon={faAngleDoubleDown} />
             </HashLink>
           </Col>

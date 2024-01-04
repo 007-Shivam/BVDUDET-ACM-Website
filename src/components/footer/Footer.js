@@ -31,27 +31,27 @@ function Footer() {
             <h3 className="text-center">Follow Us</h3>
             <ul className="list-unstyled text-center">
               <li className="list-inline-item">
-                <Link>
+                <Link to="https://www.linkedin.com/in/acm-bvdudet-364009294/">
                 <FontAwesomeIcon icon={faDiscord} />
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link>
+                <Link to="https://youtube.com/@BharatiVidyapeethDET-NM?si=NJ2634cIkU8O1cMx">
                   <FontAwesomeIcon icon={faYoutube} />
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link>
+                <Link to="https://www.linkedin.com/in/acm-bvdudet-364009294/">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link>
+                <Link to="https://www.instagram.com/acm_bvdudet?igsh=aXJtaGY4c3U1ZHpu">
                   <FontAwesomeIcon icon={faFacebookF} />
                 </Link>
               </li>
               <li className="list-inline-item">
-                <Link>
+                <Link to="https://www.instagram.com/acm_bvdudet?igsh=aXJtaGY4c3U1ZHpu"> 
                   <FontAwesomeIcon icon={faInstagram} />
                 </Link>
               </li>
