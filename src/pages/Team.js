@@ -134,7 +134,11 @@ function Team() {
             </Tabs>
           </Tab>
           <Tab eventKey="2024-25" title="2024-25">
-            Next Team Comming soon...
+          <Container>
+                <Row className="NotFound-container h-30vh justify-content-center">
+                  <h1 className="text-center">Next Team coming soon...</h1>
+                </Row>
+              </Container>
           </Tab>
         </Tabs>
       </Container>

@@ -97,22 +97,22 @@ function About() {
               <h2>Our Socials</h2>
               <ul className="list-unstyled socials">
                 <li className="list-inline-item">
-                  <Link>
+                  <Link to="https://www.instagram.com/acm_bvdudet?igsh=aXJtaGY4c3U1ZHpu">
                     <FontAwesomeIcon icon={faInstagram} />
                   </Link>
                 </li>
                 <li className="list-inline-item">
-                  <Link>
+                  <Link to="https://www.instagram.com/acm_bvdudet?igsh=aXJtaGY4c3U1ZHpu">
                     <FontAwesomeIcon icon={faFacebook} />
                   </Link>
                 </li>
                 <li className="list-inline-item">
-                  <Link>
+                  <Link to="https://youtube.com/@BharatiVidyapeethDET-NM?si=NJ2634cIkU8O1cMx">
                     <FontAwesomeIcon icon={faXTwitter} />
                   </Link>
                 </li>
                 <li className="list-inline-item">
-                  <Link>
+                  <Link to="https://www.linkedin.com/in/acm-bvdudet-364009294/">
                     <FontAwesomeIcon icon={faLinkedin} />
                   </Link>
                 </li>

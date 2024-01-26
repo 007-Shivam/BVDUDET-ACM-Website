@@ -14,28 +14,34 @@ function Sitemap() {
             <h2>Pages</h2>
             <ul>
               <li>
-                <Link>Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <Link>ACM Women</Link>
+                <Link to="/ACM-Women">ACM Women</Link>
               </li>
               <li>
-                <Link>Team</Link>
+                <Link to="/team">Team</Link>
               </li>
               <li>
-                <Link>Events</Link>
+                <Link to="/events">Events</Link>
               </li>
               <li>
-                <Link>About</Link>
+                <Link to="/gallery">Gallery</Link>
               </li>
               <li>
-                <Link>OpenSource</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <Link>Exibition</Link>
+                <Link to="/open-source">OpenSource</Link>
               </li>
               <li>
-                <Link>Sitemap</Link>
+                <Link to="/projects">Projects</Link>
+              </li>
+              <li>
+                <Link to="/contribute">Contribute</Link>
+              </li>
+              <li>
+                <Link to="/sitemap">Sitemap</Link>
               </li>
             </ul>
           </Col>

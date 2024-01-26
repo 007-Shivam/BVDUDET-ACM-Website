@@ -53,18 +53,18 @@
     "portfolio": ""
   },
   {
-    "name": "Divyanka Rai",
-    "role": "Membership Lead",
-    "image": "https://i.imgur.com/oxeE5Ej.jpg",
-    "linkedin": "",
-    "github": "",
-    "portfolio": ""
-  },
-  {
     "name": "Astha Sinha",
     "role": "Membership Lead",
     "image": "https://i.imgur.com/6JvseOy.jpg",
     "linkedin": "https://www.linkedin.com/in/astha-sinha-4b459027a/",
+    "github": "",
+    "portfolio": ""
+  },
+  {
+    "name": "Divyanka Rai",
+    "role": "Membership Lead",
+    "image": "https://i.imgur.com/oxeE5Ej.jpg",
+    "linkedin": "",
     "github": "",
     "portfolio": ""
   },

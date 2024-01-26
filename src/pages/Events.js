@@ -1,12 +1,24 @@
-import '../styles/Events.scss'
-import { Container, Col } from "react-bootstrap";
-import { Helmet } from "react-helmet";
-import { Media } from '../assets/gallery';
-import React, { useState } from 'react'
-
+import '../styles/Events.scss';
+import { Container, Button, Row } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
+import React, { useState } from 'react';
+import { Tabs, Tab } from 'react-bootstrap';
+import EventCard from '../components/event/EventCard';
+import Upcoming from '../JSON/Events/Upcoming.json'; // Import your JSON data
+import Past from '../JSON/Events/Past.json'; // Import your JSON data
 
 function Events() {
-  const [file, setFile] = useState(null);
+  const [pastEventsToShow, setPastEventsToShow] = useState(3); // Number of past events to show initially
+
+  const handleLoadMore = () => {
+    setPastEventsToShow(prevCount => prevCount + 3); // Increase count by 3 on button click
+  };
+
+  const handleTabChange = (key) => {
+    if (key === 'Upcoming') {
+      setPastEventsToShow(3);
+    }
+  };
 
   return (
     <>
@@ -16,51 +28,35 @@ function Events() {
       <div className="page-heading-section">
         <span className="page-heading">Our Events</span>
       </div>
-      <Container className="h-100vh">
-        <Col md={12} className="mt-4 mb-4">
-          <h4>
-            Take a look at our fancy calendar. An updated google calendar of
-            events is in the works!
-          </h4>
-          <iframe
-          className="mt-3"
-            title="ACM BVUDET Student Chapter Events Calendar"
-            src="https://calendar.google.com/calendar/embed?src=acmbvudet%40gmail.com&ctz=Asia%2FKolkata"
-            style={{ border: "0", width: "100%", height: "80vh" }}
-            frameborder="0"
-          ></iframe>
-        </Col>
-      </Container>
-      <Container className="h-100vh">
-        <Col lg={12} className="mt-4 mb-4">
-          <h1>Past Events</h1>
-        </Col>
-      </Container>
 
       <Container>
-      <div className='gal-container'>
-            <div className="media-container">
-                {
-                    Media.map((file, index) => (
-                        <div className="media" key={index} onClick={() => setFile(file)}>
-                            {
-                                file.type === 'image'
-                                    ? <img src={file.url} alt="" />
-                                    : <video src={file.url} muted />}
-                        </div>
-                    ))
-                }
-            </div>
+        <Tabs defaultActiveKey="Upcoming" className="mt-4 mb-3 justify-content-center" onSelect={handleTabChange}>
+          <Tab eventKey="Upcoming" title="Upcoming Events">
+            {Upcoming.length > 0 ? (
+              Upcoming.map((eventData, index) => (
+                <EventCard key={index} eventdata={eventData} />
+              ))
+            ) : (
+              <Container>
+                <Row className="NotFound-container h-30vh justify-content-center">
+                  <h1 className="text-center">Stay tuned for upcoming events!</h1>
+                </Row>
+              </Container>
+            )}
+          </Tab>
 
-            <div className="popup-media" style={{display: file ? 'block' : 'none'}}>
-                <span onClick={() => setFile(null)}>&times; </span>
-                {
-                    file?.type === 'video'
-                        ? <video src={file?.url} muted autoPlay controls />
-                        : <img src={file?.url} alt='' />
-                }
-            </div>
-        </div>
+
+          <Tab eventKey="Past" title="Past Events">
+            {Past.slice(0, pastEventsToShow).map((eventData, index) => (
+              <EventCard key={index} eventdata={eventData} />
+            ))}
+            {Past.length > pastEventsToShow && (
+              <div className="text-center mt-3">
+                <Button onClick={handleLoadMore}>Load More</Button>
+              </div>
+            )}
+          </Tab>
+        </Tabs>
       </Container>
     </>
   );
