@@ -21,6 +21,7 @@ import Sitemap from "./pages/Sitemap";
 import NotFound from "./pages/404NotFound";
 import RSVP from "./pages/RSVP";
 import Contribute from "./pages/Contribute";
+import Gallery from "./pages/Gallery";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -48,6 +49,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/events" element={<Events />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/open-source" element={<OpenSource />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contribute" element={<Contribute />} />

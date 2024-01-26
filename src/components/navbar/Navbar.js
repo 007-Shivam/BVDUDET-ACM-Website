@@ -29,14 +29,17 @@ function NavbarComponent() {
               <NavLink to="/" className="nav-link">
                 Home
               </NavLink>
-              <NavLink to="/ACM-Women" className="nav-link">
-                ACM-W
-              </NavLink>
               <NavLink to="/events" className="nav-link">
                 Events
               </NavLink>
               <NavLink to="/team" className="nav-link">
                 Team
+              </NavLink>
+              <NavLink to="/gallery" className="nav-link">
+                Gallery
+              </NavLink>
+              <NavLink to="/ACM-Women" className="nav-link">
+                ACM-W
               </NavLink>
               <NavLink to="/about" className="nav-link">
                 About
